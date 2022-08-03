@@ -1,11 +1,11 @@
-#ucapan salam
-print("Selamat datang di split_bill.py")
-#Input tagihan
-bill = float(input("Masukkan jumlah tagihan(Maksimal 1 jt) : Rp"))
+#Greetings
+print("Welcome to the split_bill.py")
+#Input your bill
+bill = float(input("Input your bill(Max < 1 jt) : Rp"))
 #Input tip
-tip = int(input("Berapa persen tip yang ingin diberikan? 10, 12, 15?"))
-#Input jumlah orang
-people = int(input("Jumlah orang : "))
+tip = int(input("What percent you'd like to give ? 10, 12, 15?"))
+#Input number of people
+people = int(input("Number of people : "))
 #Calculating tip 
 tip_percent = tip / 100
 #Calculating total tip amount
@@ -16,4 +16,4 @@ total_bill = bill + tip_amount
 bill_per_person = total_bill / people
 final = round(bill_per_person, 2)
 final = "{:.3f}".format(bill_per_person)
-print(f"Tiap orang harus membayar : Rp.{final}")
+print(f"Each People must pay : Rp.{final}")
