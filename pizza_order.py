@@ -1,10 +1,10 @@
-#Ucapan salam
-print("Selamat datang di Pizza Papa!")
-ukuran = input("Ukuran apa yang anda inginkan ? s, m, l ? ")
-tambah_topping = input("Apakah anda ingin menambahkan toping ? y/t ? ")
-tambah_keju = input("Apakah anda ingin menambahkan keju ? y/t ? ")
+#Greetings
+print("Welcome to Papa Pizza!")
+ukuran = input("What size you want ? s, m, l ? ")
+tambah_topping = input("Do you want to add topping ? y/n ? ")
+tambah_keju = input("Do you want to add extra cheese ? y/n ? ")
 tagihan = 0
-#Pengkondisian
+#Conditioning
 if ukuran == "s":
     tagihan = 50000
 elif ukuran == "m":
@@ -25,4 +25,4 @@ if tambah_keju == "y":
 else:
     tagihan += 0
 
-print(f"Total harga adalah : Rp. {tagihan}")
+print(f"Your total Bill are : Rp. {tagihan}")
