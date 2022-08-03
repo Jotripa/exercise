@@ -1,24 +1,24 @@
-#Ucapan Salam
-print("Selamat datang wahanan roller coaster taman jaya harapan!")
-#Inputing tinggi badan
-height = int(input("Masukkan tinggi badanmu: "))
+#Greetings
+print("Welcome to jaya harapan indah's roller coaster!")
+#Input height
+height = int(input("Input your height: "))
 bill = 0
-#Pengkondisian
+#Conditioning
 if height >= 120:
-    age = int(input("Masukkan umur anda: "))
+    age = int(input("Input your age: "))
     if age < 12:
         bill = 20000
-        print("Harga tiketmu adalah Rp. 20.000")
+        print("Your ticket are Rp. 20.000")
     elif age <= 18:
         bill = 50000
-        print("Harga tiketmu adalah Rp. 50.000")
+        print("Your ticket are Rp. 50.000")
     else: 
         bill = 75000
-        print("Harga tiketmu adalah Rp. 75.000")
-    print_tiket = input("Apakah anda menginginkan tiket untuk di print ? y/t? ")
+        print("Your ticket are Rp. 75.000")
+    print_tiket = input("Would you like to print your ticket ? y/n? ")
     if print_tiket == "y":
         bill += 3000
-        print(f"Total tagihan anda adalah {bill}")
+        print(f"Your total bill are {bill}")
 
 else:
-    print("Kamu belum bisa menaiki wahana ini")
+    print("You cannot ride this roller coaster yet!")
