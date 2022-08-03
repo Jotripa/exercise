@@ -1,7 +1,7 @@
-#Input angka
-number = int(input("Masukkan angka: "))
-#Pengkondisian
+#Input numbers
+number = int(input("Input numbers: "))
+#Conditioning
 if number % 2 == 0:
-    print("Angka yang dimasukkan adalah bilangan Genap!")
+    print("It's an even number!")
 else:
-    print("Angka yang dimasukkan adalah bilangan Ganjil!")
+    print("It's an odd number!")
