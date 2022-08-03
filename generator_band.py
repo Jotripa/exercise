@@ -1,8 +1,8 @@
-#Ucapan salam
-print ("Selamat datang di generator pembuat nama band")
-#Input asal kota
-jalan = input("Masukkan asal kotamu?\n")
-#Input nama hewan peliharaan
-hewan_peliharaan = input ("Masukkan nama hewan peliharaanmu?\n")
+#Greetings
+print ("Welcome to Band Generator")
+#Input address
+jalan = input("Masukkan asal kotamu?")
+#Input pet's name
+hewan_peliharaan = input ("Input your pet's name?")
 #Result
-print("nama band mu adalah " + jalan + " " + hewan_peliharaan)
+print("Your band's name is " + jalan + " " + hewan_peliharaan)
