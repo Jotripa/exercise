@@ -1,10 +1,10 @@
-#Input tinggi dan berat
-weight = float(input("Masukkan beratmu(Kg): "))
-height = float(input("Masukkan tinggimu(M): "))
-#Perhitungan BMI
+#Input weight and height
+weight = float(input("Input your weight(Kg): "))
+height = float(input("Input your height(M): "))
+#BMI Calculating
 bmi = round(weight / height ** 2)
 print("Your BMI are " + str(bmi))
-#Pengkondisian
+#Conditioning
 if bmi < 18.5:
     print("You are Underweight")
 elif bmi < 25:
