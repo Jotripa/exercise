@@ -1,3 +1,3 @@
-# pemula_Python
+python_beginner
 
-Ini adalah program - program dasar python dari latihan saya :)
+this are my basic python programs :)
